@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css%22/%3E">
-    <link href="./style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>DEBORD Mathis portfolio</title>
 </head>
@@ -19,86 +19,62 @@
               </div>
           </div>
         </div>
-        <div class="snap-start bg-teal-200 h-screen items-center justify-center inset-x-0 bottom-0 text-9xl text-teal-600 "><p class="hover:animate-pulse">COMPETENCE</p>
-            <div class="flex flex-row items-center justify-center  mt-16 pt-16 text-center ">           
-              <div class=" text-teal-400 text-2xl m-8 text-center hover:text-blue-400 "><img src="./image/icons8-php-64.png" alt="" class="h-24">45%</div>
-              <div class=" text-teal-400 text-2xl m-8 text-center hover:text-red-300 "><img src="./image/icons8-js-file-64.png" alt="" class="h-24">20%</div>
-              <div class=" text-teal-400 text-2xl m-8 text-center hover:text-purple-500 "><img src="./image/icons8-html-64.png" alt="" class="h-24">70%</div>
-              <div class=" text-teal-400 text-2xl m-8 text-center hover:text-gray-700 "><img src="./image/icons8-symfony-48.png" alt="" class="h-24">15%</div>
-              <div class=" text-teal-400 text-2xl m-8 text-center hover:text-purple-500"><img src="./image/icons8-bootstrap-48.png" alt="" class="h-24">80%</div>      
-              <div class=" text-teal-400 text-2xl m-8 text-center hover:text-green-600"><img src="./image/icons8-css-64.png" alt="" class="h-24">55%</div>      
+        <div class="snap-start bg-teal-200 h-screen items-center justify-center inset-x-0 bottom-0 xl:text-8xl md:text-5xl text-center text-teal-600 Skills"><p class="hover:animate-pulse">COMPETENCE</p>
+            <div class="add-skill-progress-bar">
+
             </div>
         </div>
-
-
-
-        <div class="snap-start bg-purple-500 h-screen w-aut felx items-center justify-center text-9xl text-purple-600"><p class="hover:animate-pulse">PROJET</p>
-          <div class="mt-16 pt-16 text-center">
+        <div class="snap-start bg-purple-500 h-[100%] w-auto  items-center justify-center text-9xl text-purple-600"><p class="hover:animate-pulse">PROJET</p>
+          <div class="mb-16 pt-16 text-center">
             <div class="fixed bottom-8 right-8" >
-                <a href="#Top" class=" text-black opacity-50 text-3xl"><img src="./image/icons8-flèche-haut-24.png" class="h-7"alt=""></a>
+                <a href="#Top" id="ToTop" class="text-black opacity-50 text-3xl"><img src="./image/icons8-flèche-haut-24.png" class="h-7" alt=""></a>
             </div>
-            <div style='background-color:rgba(122, 129, 20, 0)'>
-                <div class="container max-w-7xl mx-auto px-4" style="cursor: auto;">
-                
-                  <div class="flex flex-row justify-centerd mt-6 ">
-                    <!-- <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 shadow-2xl rounded-lg bg-purple-600 mx-10">
-                      <div class="px-6">
-                        <img alt="John Doe" src="./image/producthunt.png" class="rounded-xl shadow-lg w-80 h-32	align-middle border-none undefined mt-6 block">
-                        <div class="pt-6 text-center">
-                          <h1 class="text-purple-800 text-xl font-serif font-bold leading-normal mt-0 mb-2">PRODUCT HUNT</h1>
-                          <p class="text-purple-800  text-base font-light leading-relaxed mt-0 mb-4">Voir le site...</p>
-                          <div class="flex items-center justify-center">
-                            <button class="false flex items-center justify-center gap-1 font-bold outline-none uppercase tracking-wider focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-10 h-10 p-0 grid place-items-center text-xs leading-normal bg-transparent text-purple-500 hover:bg-pink-50 hover:text-purple-500 hover:bg-pink-50 active:bg-pink-100 undefined">
-                                <img src="./image/icons8-bootstrap-48.png" class="h-8" alt="">
-                            </button>
-                            <button class="false flex items-center justify-center gap-1 font-bold outline-none uppercase tracking-wider focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-10 h-10 p-0 grid place-items-center text-xs leading-normal bg-transparent text-yellow-300 hover:bg-blue-50 hover:text-yellow-300 hover:bg-blue-50 active:bg-blue-100 undefined">
-                              <img src="./image/icons8-js-file-64.png" class="h-8" alt="">
-                            </button>
-                            <button class="false flex items-center justify-center gap-1 font-bold outline-none uppercase tracking-wider focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-10 h-10 p-0 grid place-items-center text-xs leading-normal bg-transparent text-blue-300 hover:bg-pink-50 hover:text-blue-300 hover:bg-pink-50 active:bg-pink-100 undefined">
-                              <img src="./image/icons8-php-64.png" class="h-8" alt="">
-                            </button>
+            <div>
+                <div class="container mx-auto px-4" style="cursor: auto;">
+                  <div class="grid xl:grid-cols-3 lg:grid-cols-3 gap-4 md:grids-cols-1 justify-center mt-6">
+                      <div class="max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                          <a href="#">
+                              <img class="p-8 rounded-t-lg" src="./image/Capture d’écran 2022-03-29 110616.png" alt="product image">
+                          </a>
+                          <div class="px-5 pb-5">
+                              <a href="#">
+                                  <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">DRUM PAD MUSIC</h5>
+                              </a>
+                              <div class="flex items-center mt-6 mb-5">
+                                  <img src="./image/icons8-js-file-64.png" class="h-8">
+                                  <img src="./image/icons8-html-64.png" class="h-8">
+                                  <div class="flex justify-end items-center grow">
+                                      <a href="https://honzze.github.io/Drumpad/" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                          Read more
+                                          <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                      </a>
+                                  </div>
+                              </div>
                           </div>
-                        </div>
                       </div>
-                     </div> -->
-                        <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 shadow-2xl rounded-lg bg-purple-600 mx-10">
-                          <div class="px-6">
-                            <img alt="John Doe" src="./image/Capture d’écran 2022-03-29 110616.png" class="rounded-xl shadow-lg w-80 h-32 bg-cover	 align-middle border-none undefined mt-6">
-                            <div class="pt-6 text-center">
-                              <h1 class="text-purple-800 text-xl font-serif font-bold leading-normal mt-0 mb-2">DRUM PAD MUSIC</h1>
-                              <a href="https://honzze.github.io/Drumpad/"> <p class="text-purple-800  text-base font-light leading-relaxed mt-0 mb-4">Voir le site...</p></a>
-                              <div class="flex items-center justify-center">
-                                <button class="false flex items-center justify-center gap-1 font-bold outline-none uppercase tracking-wider focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-10 h-10 p-0 grid place-items-center text-xs leading-normal bg-transparent text-yellow-300 hover:bg-blue-50 hover:text-yellow-300 hover:bg-blue-50 active:bg-blue-100 undefined">
-                                  <img src="./image/icons8-js-file-64.png" class="h-8" alt="">
-                                </button>
-                                <button class="false flex items-center justify-center gap-1 font-bold outline-none uppercase tracking-wider focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-10 h-10 p-0 grid place-items-center text-xs leading-normal bg-transparent text-red-600 hover:bg-blue-50 hover:text-red-600 hover:bg-blue-50 active:bg-blue-100 undefined">
-                                  <img src="./image/icons8-html-64.png" class="h-8" alt="">
-                                </button>
-                                <button class="false flex items-center justify-center gap-1 font-bold outline-none uppercase tracking-wider focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-10 h-10 p-0 grid place-items-center text-xs leading-normal bg-transparent text-blue-600 hover:bg-blue-50 hover:text-blue-600 hover:bg-blue-50 active:bg-blue-100 undefined">
-                                  <img src="./image/icons8-css-64.png" class="h-8" alt="">
-                                </button>
+
+                      <div class="max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                          <a href="#">
+                              <img class="p-8 rounded-t-lg h-[65%]" src="./image/memory game 70s.png" alt="product image">
+                          </a>
+                          <div class="px-5 pb-5">
+                              <a href="#">
+                                  <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Memory Games 70's</h5>
+                              </a>
+                              <div class="flex items-center mt-6 mb-5">
+                                  <img src="./image/icons8-js-file-64.png" class="h-8">
+                                  <div class="flex justify-end items-center grow">
+                                      <a href="https://memogame70s.herokuapp.com/" target="_blank" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                          Read more
+                                          <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                      </a>
+                                  </div>
                               </div>
-                            </div>
                           </div>
-                         </div>
-                          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 shadow-2xl rounded-lg bg-purple-600 mx-10">
-                            <div class="px-6">
-                              <img alt="John Doe" src="./image/memory game 70s.png" class="rounded-xl shadow-lg w-80 h-32 bg-cover	 align-middle border-none undefined mt-6">
-                              <div class="pt-6 text-center">
-                                <h1 class="text-purple-800 text-xl font-serif font-bold leading-normal mt-0 mb-2">Memory Games 70's</h1>
-                                <a href="https://memogame70s.herokuapp.com/"><p class="text-purple-800  text-base font-light leading-relaxed mt-0 mb-4">Voir le site...</p></a>
-                                <div class="flex items-center justify-center">
-                                  <button class="false flex items-center justify-center gap-1 font-bold outline-none uppercase tracking-wider focus:outline-none focus:shadow-none transition-all duration-300 rounded-full w-10 h-10 p-0 grid place-items-center text-xs leading-normal bg-transparent text-yellow-300 hover:bg-blue-50 hover:text-yellow-300 hover:bg-blue-50 active:bg-blue-100 undefined">
-                                    <img src="./image/icons8-js-file-64.png" class="h-8" alt="">
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                          </div>
+                      </div>
                 </div>
             </div>
     </div>
-
-  </body>
+            <script src="script.js"></script>
+</body>
 </html>
